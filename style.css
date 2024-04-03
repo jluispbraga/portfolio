@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color1:#cf0303;
+    --color2:#000000;
+    --color3:#760404;
+    --color4:#760404;
+    --color5:#760404;
+    --color6:#ffffff;
+
+    --font-1: "Exo 2", sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #container {
+    display: flex;
+    align-items: center;
+    background-color: #d4cece;
+  }
+  
+  section {
+    flex: 1; 
+    background-color: #d4cece;
+    padding: 0 20px;
+  }
+  
+  body {
+      font-family: var(--font-1);
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      background-color: var(--color2);
+  }
+  
+  div{
+    display: flex; 
+    flex-direction: row; 
+  }
+  
+
+  
+  header {
+      color: var(--color6);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  header img{
+    width: 60px;
+    border-radius: 300px;
+  }
+
+  header div{
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  header h6{
+    margin: 0;
+    text-align: right;
+  }
+  
+  footer {
+      color: var(--color6);
+      text-align: center;
+      padding: 20px 0;
+      width: 100%;
+      position: end;
+  }
+  
+  main {
+      padding: 20px;
+      width: 100%;
+  }
+  
+  h1 {
+      font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    border-bottom: 1px solid black
+  }
+  
+  p {
+      font-size: 16px;
+  }
+  
+  .projects {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  .projects li {
+      margin-bottom: 10px;
+  }
+  
+  .project-link {
+      color: #007bff;
+      text-decoration: none;
+      border: 1px solid transparent;
+      border-radius: 5px;
+      padding: 5px 10px;
+  }
+  
+  .project-link:hover {
+      text-decoration: underline;
+      border-color: #007bff;
+  }
+  
+  .four-per-row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      list-style: none;
+      margin: 0;
+  }
+  
+  .four-per-row li {
+      width: calc(25% - 10px);
+      margin: 5px;
+      box-sizing: border-box;
+      padding: 10px;
+      text-align: center;
+  }
+
+  nav a {
+    color: var(--color6);
+    text-decoration: none; 
+  }
+  
+  
+  nav a:hover {
+    color: var(--color1);
+  }
+  
